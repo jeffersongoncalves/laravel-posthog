@@ -1,3 +1,5 @@
 <?php
 
-uses(Jeffersongoncalves\Posthog\Tests\TestCase::class)->in('Feature', 'Unit');
+use JeffersonGoncalves\PostHog\Tests\TestCase;
+
+uses(TestCase::class)->in('Feature', 'Unit');
